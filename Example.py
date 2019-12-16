@@ -10,7 +10,7 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S',
     handlers=[
         logging.StreamHandler(),
-        logging.FileHandler(path + '\\' + log_file)
+        logging.FileHandler(path + '/' + log_file)
     ])
 
 logging.critical('msg')
