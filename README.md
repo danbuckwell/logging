@@ -36,9 +36,9 @@ logging.debug('msg')
 Logs `msg` with the current system datetime and level.
 
 ```
-2020-01-01 00:00:00 - Example,16 - CRITICAL: msg
-2020-01-01 00:00:00 - Example,17 - ERROR: msg
-2020-01-01 00:00:00 - Example,18 - WARNING: msg
-2020-01-01 00:00:00 - Example,19 - INFO: msg
-2020-01-01 00:00:00 - Example,20 - DEBUG: msg
+2020-01-01 00:00:00 - Config,18 - CRITICAL: msg
+2020-01-01 00:00:00 - Config,19 - ERROR: msg
+2020-01-01 00:00:00 - Config,20 - WARNING: msg
+2020-01-01 00:00:00 - Config,21 - INFO: msg
+2020-01-01 00:00:00 - Config,22 - DEBUG: msg
 ```
